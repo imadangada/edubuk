@@ -136,11 +136,10 @@ return (
                 bg-clip-text text-transparent bg-gradient-to-r from-red-500 via-pink-500 to-purple-500 sm:mt-5 sm:text-6xl lg:mt-6 xl:text-6xl">
                   <span className="block">Welcome To Edubuk</span>
                   <span className="
-                  bg-clip-text text-transparent bg-gradient-to-r from-red-500 via-pink-500 to-purple-500 ">Registration Page</span>
+                  bg-clip-text text-transparent bg-gradient-to-r from-red-500 via-pink-500 to-purple-500 ">Blockchain CV</span>
                 </h1>
                 <p className="mt-5 text-base text-purple-200 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
-                  Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui Lorem cupidatat commodo. Elit sunt
-                  amet fugiat veniam occaecat fugiat.
+                  TCreate your own decentralized blockchain CV today.
                 </p>
                 <div className="mt-10 sm:mt-12">
                   <form action="#" className="sm:max-w-xl sm:mx-auto lg:mx-0">
