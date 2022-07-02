@@ -166,11 +166,11 @@ return (
                     </div>
                     <p className="mt-3 text-sm text-gray-300 sm:mt-4">
                       {/* Start your free 14-day trial, no credit card necessary. By providing your email, you agree to
-                      our{' '} */}
+                      our{' '} 
                       <a href="#" className="font-medium text-white">
                         terms of service
                       </a>
-                      .
+                      .*/}
                     </p>
                   </form>
                 </div>
