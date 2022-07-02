@@ -139,6 +139,7 @@ return (
                   bg-clip-text text-transparent bg-gradient-to-r from-red-500 via-pink-500 to-purple-500 ">Blockchain CV</span>
                 </h1>
                 <p className="mt-5 text-base text-purple-200 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
+
                   Create your own decentralized blockchain CV today.
                 </p>
                 <div className="mt-10 sm:mt-12">
