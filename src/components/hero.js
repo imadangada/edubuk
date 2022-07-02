@@ -133,14 +133,16 @@ return (
                 </a>
                 
                 <h1 className="mt-4 text-4xl tracking-tight font-extrabold
-                bg-clip-text text-transparent bg-gradient-to-r from-red-500 via-pink-500 to-purple-500 sm:mt-5 sm:text-6xl lg:mt-6 xl:text-6xl">
+                bg-clip-text text-transparent bg-gradient-to-r from-red-500 via-pink-500 to-purple-500 sm:mt-5 sm:text-6xl lg:mt-6 xl:text-5xl">
                   <span className="block">Welcome To Edubuk</span>
                   <span className="
-                  bg-clip-text text-transparent bg-gradient-to-r from-red-500 via-pink-500 to-purple-500 ">Blockchain CV</span>
+
+                  bg-clip-text text-transparent bg-gradient-to-r from-red-500 via-pink-500 to-purple-500 ">
+                    Your CV on Blockchain</span>
                 </h1>
                 <p className="mt-5 text-base text-purple-200 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
+                 Create your own decetralized CV on the blockchain today.
 
-                  Create your own decentralized blockchain CV today.
                 </p>
                 <div className="mt-10 sm:mt-12">
                   <form action="#" className="sm:max-w-xl sm:mx-auto lg:mx-0">
@@ -163,8 +165,8 @@ return (
                       </div>
                     </div>
                     <p className="mt-3 text-sm text-gray-300 sm:mt-4">
-                      Start your free 14-day trial, no credit card necessary. By providing your email, you agree to
-                      our{' '}
+                      {/* Start your free 14-day trial, no credit card necessary. By providing your email, you agree to
+                      our{' '} */}
                       <a href="#" className="font-medium text-white">
                         terms of service
                       </a>
