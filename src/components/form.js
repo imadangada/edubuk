@@ -222,7 +222,7 @@ function Form() {
             <div className="mt-5 md:mt-0 md:col-span-2">
               <form action="#" method="POST">
                 <div className="shadow overflow-hidden sm:rounded-md">
-                  <div className="border-2 border-pink-700 px-4 py-5 bg-zinc-800 sm:p-6">
+                  <div className="border-2 border-pink-500 px-4 py-5 bg-zinc-800 sm:p-6">
                     <div className="grid grid-cols-6 gap-6">
                      
   
