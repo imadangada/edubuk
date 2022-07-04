@@ -137,11 +137,14 @@ return (
                 bg-clip-text text-transparent bg-gradient-to-r from-red-500 via-pink-500 to-purple-500 sm:mt-5 sm:text-6xl lg:mt-6 xl:text-4xl">
                   <span className="block">Welcome To Edubuk</span>
                   <span className="
+
                   bg-clip-text text-transparent bg-gradient-to-r from-red-500 via-pink-500 to-purple-500 ">
                     Your CV on the Blockchain</span>
                 </h1>
                 <p className="mt-5 text-base text-purple-200 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
+
                  Let Us Find Your Dream Job in Web3 & Emerging Technologies, Today!
+
                 </p>
                 <div className="mt-10 sm:mt-12">
                   <form action="#" className="sm:max-w-xl sm:mx-auto lg:mx-0">
@@ -169,12 +172,16 @@ return (
                       </div>
                     </div>
                     <p className="mt-3 text-sm text-gray-300 sm:mt-4">
+
                       {/* {/* Start your free 14-day trial, no credit card necessary. By providing your email, you agree to
+
                       our{' '} 
                       <a href="#" className="font-medium text-white">
                         terms of service
                       </a>
+
                       . */}
+
                     </p>
                   </form>
                 </div>
