@@ -2,6 +2,7 @@ import { Fragment } from 'react'
 import { Popover, Transition } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
 import { ChevronRightIcon } from '@heroicons/react/solid'
+import { Link, Route } from 'react-router-dom'
 
 
 
@@ -133,24 +134,29 @@ return (
                 </a>
                 
                 <h1 className="mt-4 text-4xl tracking-tight font-extrabold
-                bg-clip-text text-transparent bg-gradient-to-r from-red-500 via-pink-500 to-purple-500 sm:mt-5 sm:text-6xl lg:mt-6 xl:text-5xl">
+                bg-clip-text text-transparent bg-gradient-to-r from-red-500 via-pink-500 to-purple-500 sm:mt-5 sm:text-6xl lg:mt-6 xl:text-4xl">
                   <span className="block">Welcome To Edubuk</span>
                   <span className="
                   bg-clip-text text-transparent bg-gradient-to-r from-red-500 via-pink-500 to-purple-500 ">
-                    Your CV on Blockchain</span>
+                    Your CV on the Blockchain</span>
                 </h1>
                 <p className="mt-5 text-base text-purple-200 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
-                 Create your own decetralized CV on the blockchain today.
+                 Let Us Find Your Dream Job in Web3 & Emerging Technologies, Today!
                 </p>
                 <div className="mt-10 sm:mt-12">
                   <form action="#" className="sm:max-w-xl sm:mx-auto lg:mx-0">
                     <div className="sm:flex">
                       <div className="min-w-0 flex-2">
-                      <button
-                          type="submit"
+                        {/* <Route path='/privacy-policy' component={() => { 
+     window.location.href = 'https://example.com/1234'; 
+     return null; 
+}}/>*/}
+                      
+                      <button onClick={()=> window.open("https://t.me/+boPh8H_HpNljZDZl", "_blank")}
                           className="bg-gradient-to-r from-red-500 to-pink-500 to-purple-800
                           block w-full py-3 px-4 rounded-md shadow  text-white font-medium hover:bg-indigo-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-300 focus:ring-offset-gray-900"
-                        >Login Back</button>
+                        >Join Our Telegram</button>
+                        
                       </div>
                       <div className="mt-3 sm:mt-0 sm:ml-3">
                         <button
@@ -163,12 +169,12 @@ return (
                       </div>
                     </div>
                     <p className="mt-3 text-sm text-gray-300 sm:mt-4">
-                      {/* Start your free 14-day trial, no credit card necessary. By providing your email, you agree to
-                      our{' '} */}
+                      {/* {/* Start your free 14-day trial, no credit card necessary. By providing your email, you agree to
+                      our{' '} 
                       <a href="#" className="font-medium text-white">
                         terms of service
                       </a>
-                      .
+                      . */}
                     </p>
                   </form>
                 </div>
